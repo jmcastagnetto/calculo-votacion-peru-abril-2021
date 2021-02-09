@@ -1,17 +1,7 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 library(tidyverse)
 library(shiny)
 
-# Define UI for application that draws a histogram
 ui <- fluidPage(
-    # Application title
     titlePanel(
         "Estimación del número de mesas necesarias -- Elecciones Generales 2021, Perú"
     ),
@@ -77,7 +67,7 @@ ui <- fluidPage(
         tableOutput("tablaEscenario3")
 
     ),
-    column(4, includeMarkdown("descripcion.md"))
+    column(4, includeMarkdown("informacion.md"))
     )
 )
 
@@ -216,4 +206,4 @@ server <- function(input, output) {
 }
 
 # Run the application
-shinyApp(ui = ui, server = server)
+shinyApp(ui = ui, server = server, options = list(display.mode = "auto"))

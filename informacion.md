@@ -25,4 +25,9 @@ Los grupos de riesgo pueden acudir durante las 12 horas completas, el resto sól
 Todos los grupos pueden votar durante las 12 horas completas.
 
 
+------
+
+
+Código en: [https://github.com/jmcastagnetto/calculo-votacion-peru-abril-2021](https://github.com/jmcastagnetto/calculo-votacion-peru-abril-2021)
+
 *@jmcastagnetto, Jesus M. Castagnetto*
